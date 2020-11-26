@@ -1,0 +1,93 @@
+/* header top CSS */
+.header-top {
+    background: #218AE6;
+    padding: 8px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.header-top-article span {
+    margin-left: 132px;
+}
+span.header-top-left-child {
+    margin-left: 38px;
+}
+
+
+
+/* navigation section CSS */
+a.nav-link {
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 10px;
+    color: #000;
+    transition: .3s;
+}
+
+a.nav-link:hover{
+    color: #218AE6;
+}
+/* carousel CSS */
+
+.carousel-item.active {
+    position: relative;
+}
+
+.carousel-text {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    color: #fff;
+}
+
+.carousel-text h1 {
+    font-size: 49px;
+    font-weight: 100;
+}
+
+.carousel-text p {
+    margin-top: 23px;
+    font-weight: 100;
+    letter-spacing: .5px;
+}
+
+.slider-btn {
+    display: inherit;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: .5px;
+    border-radius: 2px;
+    padding: 10px 40px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 22px;
+}
+
+/* carousel indicator */
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px !important;
+    height: 10px !important;
+    margin-right: 3px;
+    border-radius: 100%;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #FFBE2C;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+
+
+
+
+
+
+
